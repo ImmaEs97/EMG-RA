@@ -71,8 +71,7 @@ Each row corresponds to one time sample. The default sampling frequency used in 
 ├── 5_Offline_exercise_classifier.py
 ├── data/
 │   ├── raw/
-│   ├── Segment_H/
-│   └── Segment_v2/
+│   ├── Segment/
 ├── results/
 ├── README.md
 └── LICENSE
@@ -113,12 +112,13 @@ Users who wish to reproduce the analysis should organize their own data accordin
 
 ## Citation
 
-If you use this repository, please cite the associated paper:
+If you use this code, please cite the associated AVSS 2026 paper:
 
 ```bibtex
 @inproceedings{esposito2026remoteRAsemg,
   title={Toward Remote Monitoring of Rheumatoid Arthritis Patients via sEMG-Based Activity Recognition},
   author={Esposito, Immacolata and Eken, Defne and Galloway, James and De Benedetto, Egidio and Gionfrida, Letizia},
+  booktitle={IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS)},
   year={2026}
 }
 ```
